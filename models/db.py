@@ -1,5 +1,5 @@
 from typing import Dict, List
-from testApi.models import cursor, connection
+from models import cursor, connection
 
 
 def insert(table: str, column_values: Dict):

@@ -1,10 +1,10 @@
 import os
 import sys
-import testApi.config.settings
+import config.settings
 
 # create settings object corresponding to specified env
 APP_ENV = os.environ.get('APP_ENV', 'Dev')
-_current = getattr(sys.modules['testApi.config.settings'], f'{APP_ENV}Config')()
+_current = getattr(sys.modules['config.settings'], f'{APP_ENV}Config')()
 
 # copy attributes to the module for convenience
 for atr in [f for f in dir(_current) if '__' not in f]:
@@ -14,5 +14,6 @@ for atr in [f for f in dir(_current) if '__' not in f]:
 
 
 def as_dict():
-    return {atr_: getattr(testApi.config, atr_) for atr_ in [f for f in dir(testApi.config) if '__' not in f]}
+    return {atr_: getattr(config, atr_) for atr_ in [f for f in dir(config) if '__' not in f]}
+
 

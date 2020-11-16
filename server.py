@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 import logging
-from testApi.api import api
+from api import api
 from flask_jwt_extended import JWTManager
 # from testApi.config import APP_ENV
 

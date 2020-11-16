@@ -1,5 +1,5 @@
 from flask_restful import Resource, reqparse
-from testApi.models import db
+from models import db
 import psycopg2
 from typing import Dict, NamedTuple
 from passlib.hash import pbkdf2_sha256 as sha256

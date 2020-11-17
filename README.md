@@ -37,7 +37,7 @@ Test app to obtain currencies from russian bank.
 }
 ```
 
-### Авторизация
+### Auth
 
 **url**
 
@@ -86,7 +86,7 @@ Test app to obtain currencies from russian bank.
 
 `false`
 
-**JSON запрос **
+**JSON request**
 
 ```json
 {
@@ -96,7 +96,7 @@ Test app to obtain currencies from russian bank.
 }
 ```
 
-**JSON ответ**
+**JSON response**
 
 ```json
 {
@@ -133,7 +133,7 @@ Test app to obtain currencies from russian bank.
 
 `true`
 
-**JSON запрос **
+**JSON request**
 
 ```json
 {
@@ -149,7 +149,7 @@ Test app to obtain currencies from russian bank.
 }
 ```
 
-**JSON ответ**
+**JSON response**
 
 ```json
 {

@@ -1,5 +1,5 @@
 # currency
-Test app to obtain currencies from 
+Test app to obtain currencies from russian bank.
 
 ## Some api endpoints
 ### Registrattion
@@ -41,7 +41,7 @@ Test app to obtain currencies from
 
 **url**
 
-`127.0.0.1:5050/api/login`
+`server:port/api/login`
 
 **method**
 
@@ -123,7 +123,7 @@ Test app to obtain currencies from
 
 **url**
 
-`127.0.0.1:5050/api/save`
+`server:port/api/save`
 
 **method**
 
